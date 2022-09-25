@@ -9,17 +9,17 @@ const Contacto = () => {
 
       <Form>
         <Form.Group className="mb-3">
-          <Form.Label>Correo</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
+          <Form.Label>Correo:</Form.Label>
+          <Form.Control type="email" placeholder="name@example.com" />
         </Form.Group>
 
         <Form.Group className="mb-3">
-          <Form.Label>Descripción</Form.Label>
+          <Form.Label>Descripción:</Form.Label>
           <Form.Control as="textarea" rows={3} />
         </Form.Group>
 
         <Form.Group className="mb-3">
-          <Form.Control type="file" placeholder="Ingrese sus fotos" multiple />
+          <Form.Control type="file" multiple />
         </Form.Group>
         <Button variant="danger" type="submit">
           Enviar
